@@ -6,13 +6,13 @@
         <title>Version 2.0</title>
         <description>desc</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <enclosure url="https://play.google.com/store/apps/details?id=com.kukerja.main" sparkle:version="2.0" />
-        <sparkle:tags> <sparkle:criticalUpdate/>true</sparkle:tags> 
+        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="2.0" />
+        <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
     </item>
     <!-- The best chosen release -->
     <item>
         <title>Version 3.0</title>
-        <enclosure url="https://kukerja.id" sparkle:version="3.0" sparkle:os="android" />
+        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="3.0" sparkle:os="android" />
         <sparkle:deltas>
             <enclosure url="http://localhost:1337/3.0_from_2.0.patch"
             sparkle:version="3.0"
@@ -33,7 +33,7 @@
     <item>
         <title>Version 4.0</title>
         <pubDate>Sat, 26 Jul 2014 15:20:13 +0000</pubDate>
-        <enclosure url="https://kukerja.id" sparkle:version="4.0" sparkle:os="iOS" />
+        <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="4.0" sparkle:os="iOS" />
         <sparkle:minimumSystemVersion>17.0.0</sparkle:minimumSystemVersion>
     </item>
     <!-- A joke release testing maximumSystemVersion -->
@@ -44,4 +44,3 @@
     </item>
   </channel>
 </rss>
-
